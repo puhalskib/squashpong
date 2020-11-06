@@ -244,6 +244,7 @@ class PlayState extends FlxState
 			//hit sound
 			_hitSound.pan = ( (_ball.x * 2)/FlxG.width) - 1;
 			_hitSound.play(true);
+			
 		}
 	}
 
